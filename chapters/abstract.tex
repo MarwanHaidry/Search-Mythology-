@@ -1,0 +1,19 @@
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+The rapid proliferation of Internet of Things (IoT) technologies across diverse domains such as smart cities, healthcare, industrial automation, and critical infrastructure has introduced significant cybersecurity challenges. Traditional perimeter-based security models are becoming inefficient in highly distributed cross-domain IoT environments, where devices frequently interact across multiple administrative and security domains. Zero Trust Architecture (ZTA), founded on the principle of "Never Trust, Always Verify," offers a promising security paradigm but faces implementation challenges including frequent authentication requirements, trust management complexity, scalability concerns, and communication overhead.
+
+
+In order to overcome such challenges, this study proposes a Federated Learning-Based Adaptive Trust Management Framework for Cross-Domain Zero Trust IoT Networks. This framework combines Federated Learning (FL) with Zero Trust principles to provide privacy-preserving, scalable and efficient cross-domain trust evaluation. As an alternative to existing solutions that rely on centralized trust management systems suffering from single points of failure, scalability constraints and privacy concerns, the proposed framework allows multiple IoT security domains to jointly train trust models without the need to exchange raw device data.
+
+
+The framework includes four main components: a Device Layer for data generation and behavioral monitoring, a Trust Management Layer for dynamic trust score generation and risk assessment, a Federated Learning Layer for local model training and global trust aggregation using a modified Federated Averaging algorithm, and a Zero Trust Control Layer for continuous authentication and authorization based on NIST SP 800-207 standards. Trust assessments are calculated on behavioral, historical and contextual attributes with adaptive weighting.
+
+
+The key contributions of this work include: (1) Development of an adaptive trust management framework that supports multi-security domain operation. (2) Introduction of a trust migration mechanism enabling trust portability among heterogeneous IoT domains without the need for complete re-authentication. (3) Application of Federated Learning combined with Zero Trust trust orchestration to ensure privacy preservation. (4) Design of scalable trust coordination protocols suitable for large IoT networks.
+
+
+The study uses a Design Science Research (DSR) methodology combined with quantitative experimental evaluation. Performance will be assessed using security metrics (trust accuracy, detection rate, false positive rate), efficiency metrics (authentication latency, communication overhead, computational overhead), and scalability metrics (throughput, number of supported devices, cross-domain response time). The proposed framework is to reduce authentication latency and communication overhead while maintaining strong security guarantees, addressing critical limitations identified in existing Zero Trust and trust management solutions.
+
+
+\noindent\textbf{Keywords:} Zero Trust Architecture, Federated Learning, Trust Management, Cross-Domain Authentication, IoT Security, Adaptive Trust Evaluation, Privacy Preservation\par

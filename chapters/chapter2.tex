@@ -1,0 +1,455 @@
+\chapter{Literature Review}
+
+\section{Introduction}
+
+This chapter reviews the theoretical foundations and recent research related to Zero Trust Architecture (ZTA), Internet of Things (IoT) security, trust management systems, cross-domain authentication and authorization, and Federated Learning (FL). The chapter critically analyzes recent studies and identifies existing limitations that motivate the development of the proposed Federated Learning-Based Adaptive Trust Management Framework for Cross-Domain Zero Trust IoT Networks.
+
+
+\section{Zero Trust Architecture (ZTA)}
+
+\subsection{Evolution of Network Security Models}
+
+Traditional Perimeter-Based Security Models (PBSM) assume that entities inside a network boundary can be trusted. However, cloud computing, remote work, mobile devices, and IoT ecosystems have rendered perimeter-based defenses insufficient.
+
+
+The concept of Zero Trust was first introduced by John Kindervag in 2010 and later standardized by NIST SP 800-207. The core principle of ZTA is “Never Trust, Always Verify.”
+
+
+\paragraph{Core Principles of ZTA}
+
+Continuous Authentication
+
+
+Continuous Authorization
+
+
+Least Privilege Access
+
+
+Micro-Segmentation
+
+
+Continuous Monitoring
+
+
+Dynamic Trust Evaluation
+
+
+\subsection{Benefits of ZTA in IoT Environments}
+
+ZTA addresses major IoT security challenges including:
+
+
+Insider threats
+
+
+Lateral movement attacks
+
+
+Device impersonation
+
+
+Credential theft
+
+
+Unauthorized access
+
+
+However, implementing ZTA in large-scale IoT environments introduces significant challenges related to scalability, trust management, and authentication overhead.
+
+
+\section{Trust Management in Zero Trust Environments}
+
+\subsection{Concept of Trust}
+
+Trust represents the degree of confidence that a device, user, or service will behave according to security expectations.
+
+
+Trust evaluation commonly utilizes:
+
+
+\paragraph{Behavioral Trust}
+
+\paragraph{Historical Trust}
+
+\paragraph{Contextual Trust}
+
+Reputation-Based Trust
+
+
+\subsection{Existing Trust Models}
+
+Existing trust models can be classified into:
+
+
+\paragraph{Centralized Trust Models}
+
+Advantages:
+
+
+Simplicity
+
+
+Disadvantages:
+
+
+Single Point of Failure
+
+
+Limited Scalability
+
+
+\paragraph{Distributed Trust Models}
+
+Advantages:
+
+
+Scalability
+
+
+Fault Tolerance
+
+
+Disadvantages:
+
+
+Complex Trust Coordination
+
+
+\subsection{Challenges of Current Trust Models}
+
+Current trust models suffer from:
+
+
+Static trust calculation
+
+
+Lack of trust migration
+
+
+Poor cross-domain interoperability
+
+
+Privacy concerns
+
+
+High computational complexity
+
+
+\section{Cross-Domain Authentication and Authorization}
+
+\subsection{Cross-Domain Security Requirements}
+
+Modern IoT systems frequently operate across:
+
+
+Enterprise Networks
+
+
+Cloud Environments
+
+
+Industrial Control Systems
+
+
+Service Provider Networks
+
+
+Cross-domain interaction requires:
+
+
+Identity Verification
+
+
+Trust Transfer
+
+
+Authorization Coordination
+
+
+\subsection{Existing Cross-Domain Authentication Approaches}
+
+\paragraph{One-Time Authentication}
+
+Advantages:
+
+
+Low authentication overhead
+
+
+Limitations:
+
+
+Session hijacking
+
+
+Lateral movement attacks
+
+
+\paragraph{Blockchain-Based Authentication}
+
+Advantages:
+
+
+Decentralization
+
+
+Transparency
+
+
+Limitations:
+
+
+High latency
+
+
+High computational overhead
+
+
+Energy consumption
+
+
+\paragraph{Zero Trust Authentication}
+
+Advantages:
+
+
+Continuous verification
+
+
+Dynamic authorization
+
+
+Limitations:
+
+
+Repeated authentication costs
+
+
+Trust portability limitations
+
+
+\section{Federated Learning in Cybersecurity}
+
+\subsection{Overview of Federated Learning}
+
+Federated Learning is a decentralized machine learning paradigm where multiple participants collaboratively train a model without sharing raw data.
+
+
+Benefits include:
+
+
+Privacy Preservation
+
+
+Reduced Data Exposure
+
+
+Distributed Intelligence
+
+
+\subsection{Federated Learning for Security Applications}
+
+FL has been applied in:
+
+
+Intrusion Detection Systems
+
+
+Malware Detection
+
+
+Anomaly Detection
+
+
+Trust Evaluation
+
+
+\subsection{Challenges of FL}
+
+Model Poisoning Attacks
+
+
+Data Poisoning
+
+
+Byzantine Nodes
+
+
+Non-IID Data Distribution
+
+
+Aggregation Complexity
+
+
+\section{Review of Recent Zero Trust Research}
+
+\subsection{Zero Trust Architecture: A Systematic Literature Review (Gambo \& Almulhem, 2025)}
+
+\paragraph{Main Contributions}
+
+Comprehensive taxonomy of ZTA applications.
+
+
+Identification of enabling technologies.
+
+
+Analysis of adoption challenges.
+
+
+\paragraph{Key Findings}
+
+Strong growth of ZTA adoption.
+
+
+Significant challenges in trust management.
+
+
+Limited cross-domain implementations.
+
+
+\paragraph{Identified Gaps}
+
+Lack of trust management frameworks.
+
+
+Privacy-preserving trust evaluation remains underexplored.
+
+
+Scalability issues in large-scale IoT systems.
+
+
+\subsection{Zero Trust Architecture in the Modern Threat Landscape (2026)}
+
+\paragraph{Main Contributions}
+
+Analysis of vulnerabilities and attack surfaces.
+
+
+Classification of Zero Trust weaknesses.
+
+
+\paragraph{Key Findings}
+
+Identity systems remain primary attack targets.
+
+
+Policy engines become critical points of failure.
+
+
+Cross-domain orchestration remains unsolved.
+
+
+\paragraph{Identified Gaps}
+
+Absence of unified trust orchestration.
+
+
+Lack of standard evaluation frameworks.
+
+
+Limited real-world deployments.
+
+
+\subsection{DAGA: Dynamic Authentication and Granularized Authorization (2026)}
+
+\paragraph{Main Contributions}
+
+Cross-domain pre-authentication.
+
+
+LSTM-based trust prediction.
+
+
+Granularized authorization.
+
+
+\paragraph{Key Findings}
+
+Reduced authentication latency.
+
+
+Improved authorization efficiency.
+
+
+\paragraph{Limitations}
+
+Trust migration remains partially addressed.
+
+
+Dependence on simulation-based evaluation.
+
+
+No protection against FL poisoning attacks.
+
+
+\section{Comparative Analysis of Existing Studies}
+
+\begin{table}[htbp]
+\centering
+\caption{Comparative Analysis of Existing Studies}
+\label{tab:comparative-studies}
+\small
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{2.6cm}|>{\raggedright\arraybackslash}p{2.5cm}|>{\raggedright\arraybackslash}p{2.2cm}|X|X|}
+\hline
+ Study & Main Focus & Technology Used & Strengths & Limitations \\ \hline
+ Gambo \& Almulhem (2025) & ZTA Review & SLR & Comprehensive taxonomy & No proposed framework \\ \hline
+ Modern Threat Landscape (2026) & Vulnerabilities & SLR & Threat classification & No implementation model \\ \hline
+ DFL-ZTA (2025) & Cross-Domain Authentication & DFL & Privacy preservation & Limited trust orchestration \\ \hline
+ DAGA (2026) & Adaptive Authentication & FL + LSTM & Reduced latency & Limited trust migration \\ \hline
+ Proposed Study & Adaptive Trust Management & FL + Dynamic Trust & Cross-domain trust orchestration & To be evaluated \\ \hline
+\end{tabularx}
+\end{table}
+
+\section{Research Gap Analysis}
+
+Based on the reviewed literature, several gaps remain unresolved:
+
+
+Lack of adaptive trust management frameworks capable of operating across multiple security domains.
+
+
+Absence of effective trust migration mechanisms between heterogeneous IoT domains.
+
+
+Limited integration between Federated Learning and Zero Trust trust orchestration.
+
+
+Insufficient privacy-preserving trust evaluation techniques.
+
+
+Lack of scalable trust coordination mechanisms for large-scale IoT deployments.
+
+
+Existing solutions focus on authentication optimization rather than holistic trust management.
+
+
+Therefore, a Federated Learning-Based Adaptive Trust Management Framework is proposed to address these limitations.
+
+
+\section{Conceptual Framework}
+
+The proposed framework is founded on the integration of:
+
+
+Zero Trust Architecture
+
+
+Federated Learning
+
+
+Dynamic Trust Evaluation
+
+
+Cross-Domain Trust Orchestration
+
+
+Adaptive Authorization
+
+
+These components collectively support secure, scalable, and privacy-preserving trust management across heterogeneous IoT environments.
+
+
+\section{Chapter Summary}
+
+This chapter reviewed the theoretical foundations and contemporary literature related to Zero Trust Architecture, trust management, cross-domain authentication, and Federated Learning. The review identified several limitations in existing approaches, particularly regarding adaptive trust management and cross-domain trust orchestration. These limitations establish the research gap addressed by the proposed framework. The next chapter presents the research design and system architecture of the proposed solution.

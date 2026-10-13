@@ -1,0 +1,492 @@
+\chapter{Research Methodology And Proposed Framework}
+
+\section{Introduction}
+
+This chapter presents the research methodology and the proposed Federated Learning-Based Adaptive Trust Management Framework for Cross-Domain Zero Trust IoT Networks. The chapter describes the research design, system architecture, trust management model, federated learning integration, trust evaluation mechanism, experimental environment, and performance evaluation metrics. The proposed framework is developed based on Zero Trust Architecture (ZTA) principles defined by the National Institute of Standards and Technology (NIST) and recent advancements in federated learning and trust management systems .
+
+
+\section{Research Methodology}
+
+\subsection{Research Approach}
+
+This study adopts a Design Science Research (DSR) methodology.
+
+
+Design Science Research is widely used in information systems and cybersecurity research because it focuses on the creation and evaluation of innovative artifacts designed to solve identified problems .
+
+
+The DSR process consists of:
+
+
+Problem Identification
+
+
+Objective Definition
+
+
+Framework Design
+
+
+Artifact Development
+
+
+Demonstration
+
+
+Evaluation
+
+
+Communication
+
+
+The methodology is suitable because this research aims to develop and evaluate a novel adaptive trust management framework for cross-domain Zero Trust IoT environments.
+
+
+\subsection{Research Process}
+
+The research process consists of six phases:
+
+
+\paragraph{Phase 1: Literature Review}
+
+A systematic review of:
+
+
+Zero Trust Architecture
+
+
+Trust Management
+
+
+Cross-Domain Authentication
+
+
+Federated Learning
+
+
+was conducted to identify existing limitations and research gaps .
+
+
+\paragraph{Phase 2: Requirement Analysis}
+
+Security and operational requirements are extracted from:
+
+
+NIST SP 800-207
+
+
+Cross-domain IoT authentication studies
+
+
+Federated Learning security frameworks
+
+
+\paragraph{Phase 3: Framework Design}
+
+An adaptive trust management architecture is designed.
+
+
+\paragraph{Phase 4: Model Development}
+
+Trust evaluation and federated learning models are developed.
+
+
+\paragraph{Phase 5: Simulation}
+
+The framework is implemented and tested.
+
+
+\paragraph{Phase 6: Performance Evaluation}
+
+Results are analyzed and compared with baseline approaches.
+
+
+\section{System Model}
+
+\subsection{Network Architecture}
+
+The proposed environment consists of multiple IoT security domains.
+
+
+Each domain contains:
+
+
+IoT Devices
+
+
+Local Trust Manager
+
+
+Policy Decision Point (PDP)
+
+
+Policy Enforcement Point (PEP)
+
+
+Federated Learning Agent
+
+
+The architecture follows NIST Zero Trust Architecture recommendations by separating policy enforcement and policy decision functions .
+
+
+\paragraph{Domains}
+
+The system includes:
+
+
+Domain A
+
+
+Domain B
+
+
+Domain C
+
+
+Cloud Service Domain
+
+
+Each domain maintains local trust information while participating in federated trust learning.
+
+
+\subsection{Threat Model}
+
+The proposed framework considers the following threats:
+
+
+\paragraph{External Threats}
+
+Identity Spoofing
+
+
+Credential Theft
+
+
+Replay Attacks
+
+
+\paragraph{Internal Threats}
+
+Insider Attacks
+
+
+Lateral Movement
+
+
+Session Hijacking
+
+
+\paragraph{Federated Learning Threats}
+
+Model Poisoning
+
+
+Data Poisoning
+
+
+Byzantine Attacks
+
+
+These threats have been identified as major security concerns in recent ZTA and FL research.
+
+
+\section{Proposed Framework}
+
+\subsection{Framework Overview}
+
+The proposed framework integrates:
+
+
+Zero Trust Architecture
+
+
+Federated Learning
+
+
+Adaptive Trust Evaluation
+
+
+Cross-Domain Trust Migration
+
+
+Dynamic Authorization
+
+
+The objective is to reduce authentication latency while maintaining strong security guarantees.
+
+
+Unlike existing approaches that require complete re-authentication whenever a device enters a new domain, the proposed framework enables trust portability through federated trust sharing.
+
+
+\subsection{Framework Components}
+
+A. Device Layer
+
+
+\paragraph{Responsible for}
+
+Data generation
+
+
+Resource requests
+
+
+Behavioral monitoring
+
+
+B. Trust Management Layer
+
+
+\paragraph{Responsible for}
+
+Trust score generation
+
+
+Trust score updates
+
+
+Risk evaluation
+
+
+C. Federated Learning Layer
+
+
+\paragraph{Responsible for}
+
+Local model training
+
+
+Parameter sharing
+
+
+Global trust model aggregation
+
+
+Based on the FL paradigm introduced by McMahan et al. (2017).
+
+
+D. Zero Trust Control Layer
+
+
+\paragraph{Responsible for}
+
+Continuous Authentication
+
+
+Continuous Authorization
+
+
+Policy Enforcement
+
+
+Following NIST SP 800-207.
+
+
+\section{Adaptive Trust Evaluation Model}
+
+\subsection{Trust Factors}
+
+Trust scores are calculated using multiple attributes:
+
+
+\paragraph{Behavioral Trust}
+
+\paragraph{Evaluates}
+
+Access frequency
+
+
+Access patterns
+
+
+Resource usage
+
+
+\paragraph{Historical Trust}
+
+\paragraph{Evaluates}
+
+Previous interactions
+
+
+Authentication history
+
+
+\paragraph{Contextual Trust}
+
+\paragraph{Evaluates}
+
+Device location
+
+
+Time of access
+
+
+Device state
+
+
+These trust dimensions are commonly used in dynamic trust management systems .
+
+
+\subsection{Trust Score Formula}
+
+The overall trust score is calculated as:
+
+
+The overall trust score is calculated as:
+
+\begin{equation}
+  T = w_1 B + w_2 H + w_3 C
+  \label{eq:trust-score}
+\end{equation}
+
+Where:
+
+
+T = Overall Trust Score
+
+
+B = Behavioral Trust
+
+
+H = Historical Trust
+
+
+C = Contextual Trust
+
+
+w1,w2,w3 = Adaptive Weights
+
+
+The weights are dynamically adjusted based on federated learning outputs.
+
+
+\section{Federated Learning-Based Trust Aggregation}
+
+\subsection{Local Training}
+
+Each domain trains its local trust model using local device data.
+
+
+Raw data never leaves the domain.
+
+
+This privacy-preserving approach follows the federated learning paradigm proposed by McMahan et al.
+
+
+\subsection{Global Aggregation}
+
+The central aggregation server collects model parameters from participating domains.
+
+
+A modified Federated Averaging (FedAvg) algorithm is used to produce the global trust model.
+
+
+\subsection{Cross-Domain Trust Migration}
+
+When a device moves to a new domain:
+
+
+Previous trust records are requested.
+
+
+Federated trust scores are evaluated.
+
+
+Preliminary trust is assigned.
+
+
+Continuous verification begins.
+
+
+This mechanism addresses one of the major research gaps identified by Ma et al.
+
+
+\section{Authentication and Authorization Process}
+
+The proposed process consists of:
+
+
+Step 1
+
+
+Device Registration
+
+
+Step 2
+
+
+Identity Verification
+
+
+Step 3
+
+
+Trust Evaluation
+
+
+Step 4
+
+
+Risk Assessment
+
+
+Step 5
+
+
+Authorization Decision
+
+
+Step 6
+
+
+Continuous Monitoring
+
+
+These stages align with Zero Trust principles described in NIST SP 800-207.
+
+
+\section{Performance Evaluation Metrics}
+
+The framework will be evaluated using:
+
+
+\paragraph{Security Metrics}
+
+Trust Accuracy
+
+
+Detection Rate
+
+
+False Positive Rate
+
+
+\paragraph{Efficiency Metrics}
+
+Authentication Latency
+
+
+Communication Overhead
+
+
+Computational Overhead
+
+
+\paragraph{Scalability Metrics}
+
+Throughput
+
+
+Number of Supported Devices
+
+
+Cross-Domain Response Time
+
+
+These metrics are commonly adopted in DAGA and DFL-ZTA studies .
+
+
+\section{Chapter Summary}
+
+This chapter presented the research methodology and the proposed Federated Learning-Based Adaptive Trust Management Framework for Cross-Domain Zero Trust IoT Networks. The framework integrates federated learning, adaptive trust evaluation, and Zero Trust principles to enable privacy-preserving, scalable, and efficient cross-domain trust management. The next chapter will present the implementation details and experimental setup used to validate the proposed framework.

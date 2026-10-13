@@ -1,0 +1,73 @@
+\documentclass[12pt,a4paper,oneside]{scrreprt}
+
+% Compile with pdfLaTeX in TeXstudio + MiKTeX or in Overleaf.
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=1in,headheight=15pt]{geometry}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,array,longtable}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!50!black,
+  citecolor=blue!50!black,
+  urlcolor=blue!50!black,
+  pdftitle={A Federated Learning-Based Adaptive Trust Management Framework for Cross-Domain Zero Trust IoT Networks}
+}
+\setstretch{1.25}
+\setlist[itemize]{leftmargin=2em,itemsep=2pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=2.2em,itemsep=3pt,topsep=3pt}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\newcommand{\thesistitle}{A Federated Learning-Based Adaptive Trust Management Framework for Cross-Domain Zero Trust IoT Networks}
+
+\begin{document}
+\begin{titlepage}
+  \centering
+  \vspace*{1.5cm}
+  {\Large Research Proposal\par}
+  \vspace{2cm}
+  {\LARGE\bfseries \thesistitle\par}
+  \vspace{2cm}
+  {\large Prepared by: Marwan Abdulmalek Al-Haidry\par}
+  \vspace{0.7cm}
+  {\large Department / Faculty: Computer and information Technology \par}
+  \vspace{0.7cm}
+  {\large University: Sana'a University \par}
+  \vfill
+  {\large Supervisor: \underline{\hspace{7cm}}\par}
+  \vspace{0.7cm}
+  {\large Date: \underline{\hspace{8cm}}\par}
+\end{titlepage}
+
+\pagenumbering{roman}
+\tableofcontents
+\listoftables
+\clearpage
+\pagenumbering{arabic}
+
+\input{chapters/abstract}
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+\input{chapters/chapter3}
+
+% The source proposal contains in-text author/year mentions but does not include
+% a complete reference list. See references.bib and README.md before submission.
+\appendix
+\chapter*{Bibliography notes}
+The source document did not provide complete bibliographic metadata for every
+in-text citation. Complete and verify the entries in \texttt{references.bib}
+before submitting the proposal. Do not treat placeholder entries as final references.
+
+\end{document}

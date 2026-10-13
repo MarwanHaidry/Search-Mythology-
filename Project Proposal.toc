@@ -1,0 +1,101 @@
+\contentsline {chapter}{Abstract}{1}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Background of the Study}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problem Statement}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Significance of the Study}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objectives of the Study}{5}{section.1.5}%
+\contentsline {paragraph}{\nonumberline General Objective}{5}{paragraph*.4}%
+\contentsline {paragraph}{\nonumberline Specific Objectives}{5}{paragraph*.5}%
+\contentsline {section}{\numberline {1.6}Research Questions}{6}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Limitations of the Study}{6}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Methodology of the Study}{6}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Thesis Structure}{7}{section.1.9}%
+\contentsline {chapter}{\numberline {2}Literature Review}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Zero Trust Architecture (ZTA)}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Evolution of Network Security Models}{8}{subsection.2.2.1}%
+\contentsline {paragraph}{\nonumberline Core Principles of ZTA}{8}{paragraph*.6}%
+\contentsline {subsection}{\numberline {2.2.2}Benefits of ZTA in IoT Environments}{8}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Trust Management in Zero Trust Environments}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Concept of Trust}{9}{subsection.2.3.1}%
+\contentsline {paragraph}{\nonumberline Behavioral Trust}{9}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Historical Trust}{9}{paragraph*.8}%
+\contentsline {paragraph}{\nonumberline Contextual Trust}{9}{paragraph*.9}%
+\contentsline {subsection}{\numberline {2.3.2}Existing Trust Models}{9}{subsection.2.3.2}%
+\contentsline {paragraph}{\nonumberline Centralized Trust Models}{9}{paragraph*.10}%
+\contentsline {paragraph}{\nonumberline Distributed Trust Models}{9}{paragraph*.11}%
+\contentsline {subsection}{\numberline {2.3.3}Challenges of Current Trust Models}{9}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Cross-Domain Authentication and Authorization}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Cross-Domain Security Requirements}{10}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Existing Cross-Domain Authentication Approaches}{10}{subsection.2.4.2}%
+\contentsline {paragraph}{\nonumberline One-Time Authentication}{10}{paragraph*.12}%
+\contentsline {paragraph}{\nonumberline Blockchain-Based Authentication}{10}{paragraph*.13}%
+\contentsline {paragraph}{\nonumberline Zero Trust Authentication}{10}{paragraph*.14}%
+\contentsline {section}{\numberline {2.5}Federated Learning in Cybersecurity}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Overview of Federated Learning}{11}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Federated Learning for Security Applications}{11}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Challenges of FL}{11}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Review of Recent Zero Trust Research}{11}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Zero Trust Architecture: A Systematic Literature Review (Gambo \& Almulhem, 2025)}{11}{subsection.2.6.1}%
+\contentsline {paragraph}{\nonumberline Main Contributions}{11}{paragraph*.15}%
+\contentsline {paragraph}{\nonumberline Key Findings}{12}{paragraph*.16}%
+\contentsline {paragraph}{\nonumberline Identified Gaps}{12}{paragraph*.17}%
+\contentsline {subsection}{\numberline {2.6.2}Zero Trust Architecture in the Modern Threat Landscape (2026)}{12}{subsection.2.6.2}%
+\contentsline {paragraph}{\nonumberline Main Contributions}{12}{paragraph*.18}%
+\contentsline {paragraph}{\nonumberline Key Findings}{12}{paragraph*.19}%
+\contentsline {paragraph}{\nonumberline Identified Gaps}{12}{paragraph*.20}%
+\contentsline {subsection}{\numberline {2.6.3}DAGA: Dynamic Authentication and Granularized Authorization (2026)}{12}{subsection.2.6.3}%
+\contentsline {paragraph}{\nonumberline Main Contributions}{12}{paragraph*.21}%
+\contentsline {paragraph}{\nonumberline Key Findings}{12}{paragraph*.22}%
+\contentsline {paragraph}{\nonumberline Limitations}{12}{paragraph*.23}%
+\contentsline {section}{\numberline {2.7}Comparative Analysis of Existing Studies}{13}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Research Gap Analysis}{13}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Conceptual Framework}{13}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Chapter Summary}{14}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Research Methodology And Proposed Framework}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Research Methodology}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Research Approach}{15}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Research Process}{16}{subsection.3.2.2}%
+\contentsline {paragraph}{\nonumberline Phase 1: Literature Review}{16}{paragraph*.25}%
+\contentsline {paragraph}{\nonumberline Phase 2: Requirement Analysis}{16}{paragraph*.26}%
+\contentsline {paragraph}{\nonumberline Phase 3: Framework Design}{16}{paragraph*.27}%
+\contentsline {paragraph}{\nonumberline Phase 4: Model Development}{16}{paragraph*.28}%
+\contentsline {paragraph}{\nonumberline Phase 5: Simulation}{16}{paragraph*.29}%
+\contentsline {paragraph}{\nonumberline Phase 6: Performance Evaluation}{16}{paragraph*.30}%
+\contentsline {section}{\numberline {3.3}System Model}{16}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Network Architecture}{16}{subsection.3.3.1}%
+\contentsline {paragraph}{\nonumberline Domains}{17}{paragraph*.31}%
+\contentsline {subsection}{\numberline {3.3.2}Threat Model}{17}{subsection.3.3.2}%
+\contentsline {paragraph}{\nonumberline External Threats}{17}{paragraph*.32}%
+\contentsline {paragraph}{\nonumberline Internal Threats}{17}{paragraph*.33}%
+\contentsline {paragraph}{\nonumberline Federated Learning Threats}{17}{paragraph*.34}%
+\contentsline {section}{\numberline {3.4}Proposed Framework}{17}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Framework Overview}{17}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Framework Components}{18}{subsection.3.4.2}%
+\contentsline {paragraph}{\nonumberline Responsible for}{18}{paragraph*.35}%
+\contentsline {paragraph}{\nonumberline Responsible for}{18}{paragraph*.36}%
+\contentsline {paragraph}{\nonumberline Responsible for}{18}{paragraph*.37}%
+\contentsline {paragraph}{\nonumberline Responsible for}{18}{paragraph*.38}%
+\contentsline {section}{\numberline {3.5}Adaptive Trust Evaluation Model}{18}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Trust Factors}{18}{subsection.3.5.1}%
+\contentsline {paragraph}{\nonumberline Behavioral Trust}{18}{paragraph*.39}%
+\contentsline {paragraph}{\nonumberline Evaluates}{18}{paragraph*.40}%
+\contentsline {paragraph}{\nonumberline Historical Trust}{19}{paragraph*.41}%
+\contentsline {paragraph}{\nonumberline Evaluates}{19}{paragraph*.42}%
+\contentsline {paragraph}{\nonumberline Contextual Trust}{19}{paragraph*.43}%
+\contentsline {paragraph}{\nonumberline Evaluates}{19}{paragraph*.44}%
+\contentsline {subsection}{\numberline {3.5.2}Trust Score Formula}{19}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Federated Learning-Based Trust Aggregation}{19}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Local Training}{19}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Global Aggregation}{19}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Cross-Domain Trust Migration}{20}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}Authentication and Authorization Process}{20}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Performance Evaluation Metrics}{20}{section.3.8}%
+\contentsline {paragraph}{\nonumberline Security Metrics}{20}{paragraph*.45}%
+\contentsline {paragraph}{\nonumberline Efficiency Metrics}{20}{paragraph*.46}%
+\contentsline {paragraph}{\nonumberline Scalability Metrics}{21}{paragraph*.47}%
+\contentsline {section}{\numberline {3.9}Chapter Summary}{21}{section.3.9}%
+\def \@chapapp {\appendixname }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
